@@ -12,7 +12,6 @@ body {
 
 a {
     text-decoration: none;
-    color: hsl(0, 0%, 100%);
 }
 
 ul {
@@ -36,27 +35,58 @@ header {
     margin: 70px auto;
 }
 
+
 #recipe {
     /* DEBUG */
-    background-color: lightblue;
+    /* background-color: lightblue; */
+}
+
+.categories {
+    display: inline-block;
+    margin-bottom: 15px;
+}
+
+.categories a {
+    font-size: 0.9rem;
+    color: hsl(256, 13%, 65%);
+}
+
+#recipe-title {
+    color: hsl(266, 30%, 32%);
+    font-size: 2.8rem;
+    margin-bottom: 20px;
 }
 
 .recipe-row {
     display: flex;
+    margin-bottom: 20px;
+    box-shadow: 5px 5px 10px hsl(0, 0%, 82.7%);
 }
 
 .col-left {
     width: 70%;
-    /* DEBUG */
-    height: 500px;
-    background-color: lightcoral;
+}
+
+.recipe-video {
+    width: 100%;
 }
 
 .col-right {
     width: 30%;
+    padding: 40px;
     /* DEBUG */
-    height: 500px;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
+}
+
+.col-right h4 {
+    font-size: 1.2rem;
+    margin-bottom: 40px;
+}
+
+.col-right span {
+    font-size: 0.9rem;
+    display: block;
+    margin-bottom: 20px;
 }
 
 /* Socials */

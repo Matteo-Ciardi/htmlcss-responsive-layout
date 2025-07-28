@@ -1,11 +1,13 @@
 @media screen and (max-width: 640px) {
 
-    .container {
-    width: 90%;
-    margin: 70px auto;
-}
-
+    /* Header */
     #title {
         text-align: center;
+    }
+
+    /* Main */
+    .container {
+        width: 90%;
+        margin: 70px auto;
     }
 }
