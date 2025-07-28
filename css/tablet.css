@@ -39,4 +39,17 @@
         display: none;
     }
 
+    /* Footer */
+    .footer-row {
+        display: block;
+        text-align: center;
+    }
+
+    .links-list {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: 0.9rem;
+        margin-top: 15px;
+    }
 }

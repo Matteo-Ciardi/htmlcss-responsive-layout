@@ -38,10 +38,10 @@
     /* Descrizione */
     .object-img {
         float: none;
+        position: unset;
         display: block;
         width: 60%;;
         margin: 0 auto;
         box-shadow: 5px 5px 10px hsl(0, 0%, 82.7%);
-        position: unset;
     }
 }

@@ -18,6 +18,10 @@ ul {
     list-style-type: none;
 }
 
+span {
+    display: inline-block;
+}
+
 /* Utils */
 .container {
     width: 70%;
@@ -156,9 +160,29 @@ footer {
 .footer-row {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
+
+.agency {
+    font-weight: 600;
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 100%);
+    margin-bottom: 10px;
+}
+
+.address span {
+    color: white;
+    font-size: 0.8rem;
+}
+
 
 .links-list {
     display: flex;
     align-items: center;
+}
+
+.links-list a {
+    color: white;
+    margin-left: 20px;
+    text-decoration: underline;
 }
