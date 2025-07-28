@@ -109,6 +109,11 @@ header {
     /* background-color: aquamarine; */
 }
 
+/* ADS */
+.banner-ads {
+    width: 100%;
+}
+
 /* Footer */
 footer {
     padding: 20px 20px;
