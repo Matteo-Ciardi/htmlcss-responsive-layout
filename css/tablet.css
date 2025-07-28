@@ -29,4 +29,14 @@
     .details {
         display: flex;
     }
+
+    /* Socials */
+    .btn {
+        padding: 10px 70px;
+    }
+
+    .btn span {
+        display: none;
+    }
+
 }
