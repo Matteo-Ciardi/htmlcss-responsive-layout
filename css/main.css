@@ -112,6 +112,36 @@ header {
 /* ADS */
 .banner-ads {
     width: 100%;
+    margin-bottom: 40px;
+}
+
+/* Descrizione */
+h2 {
+    font-weight: 500;
+    font-size: 1.7rem;
+}
+
+.divider {
+    width: 80px;
+    border-bottom: 3px solid #f7972e;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.object-img {
+    float: left;
+    width: 30%;
+    margin-right: 10px;
+}
+
+p {
+    line-height: 40px;
+}
+
+.clearfix::after {
+    display: table;
+    content: '';
+    clear: both;
 }
 
 /* Footer */
