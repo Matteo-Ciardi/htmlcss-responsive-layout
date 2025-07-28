@@ -25,6 +25,9 @@ header {
 .container {
     width: 70%;
     margin: 70px auto;
+}
+
+#recipe {
     /* DEBUG */
     background-color: lightblue;
 }
@@ -45,5 +48,22 @@ header {
     /* DEBUG */
     height: 500px;
     background-color: lightgreen;
+}
+
+/* Socials */
+#socials {
+    display: flex;
+    justify-content: space-between;
+    /* DEBUG */
+    background-color: lightgrey;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 20px 0px;
+    border-radius: 30px;
+    /* DEBUG */
+    background-color: aquamarine;
 }
 
