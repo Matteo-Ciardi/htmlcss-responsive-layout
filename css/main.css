@@ -130,6 +130,8 @@ h2 {
 
 .object-img {
     float: left;
+    position: relative;
+    top: 13px;
     width: 30%;
     margin-right: 10px;
 }
