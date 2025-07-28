@@ -9,3 +9,14 @@
 body {
     font-family: "Montserrat", sans-serif;
 }
+
+/* Header */
+header {
+    padding: 10px 20px;
+}
+
+#title {
+    font-family: "Nerko One", cursive;
+    font-size: 3rem;
+    color: hsl(33, 100%, 54%);
+}
