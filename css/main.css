@@ -10,6 +10,15 @@ body {
     font-family: "Montserrat", sans-serif;
 }
 
+a {
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+
+ul {
+    list-style-type: none;
+}
+
 /* Header */
 header {
     padding: 10px 20px;
@@ -32,7 +41,7 @@ header {
     background-color: lightblue;
 }
 
-.row {
+.recipe-row {
     display: flex;
 }
 
@@ -67,3 +76,19 @@ header {
     background-color: aquamarine;
 }
 
+/* Footer */
+footer {
+    padding: 20px 20px;
+    /* DEBUG */
+    background-color: hsl(259, 24%, 53%);
+}
+
+.footer-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.links-list {
+    display: flex;
+    align-items: center;
+}
