@@ -1,4 +1,32 @@
 @media screen and (max-width: 1020px) {
 
-    
+    /* Main */
+    .container {
+        width: 90%;
+        margin: 70px auto;
+    }
+
+    /* Recipe */
+    #recipe-title {
+        font-size: 2rem;
+    }
+
+    .recipe-row {
+        display: block;
+    }
+
+    .col-left {
+        width: 100%;
+    }
+
+    .col-right {
+        width: 100%;
+        padding: 40px;
+        /* DEBUG */
+        /* background-color: lightgreen; */
+    }
+
+    .details {
+        display: flex;
+    }
 }

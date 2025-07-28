@@ -18,6 +18,12 @@ ul {
     list-style-type: none;
 }
 
+/* Utils */
+.container {
+    width: 70%;
+    margin: 70px auto;
+}
+
 /* Header */
 header {
     padding: 10px 20px;
@@ -30,12 +36,6 @@ header {
 }
 
 /* Recipe */
-.container {
-    width: 70%;
-    margin: 70px auto;
-}
-
-
 #recipe {
     /* DEBUG */
     /* background-color: lightblue; */
