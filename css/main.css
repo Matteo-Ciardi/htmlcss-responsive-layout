@@ -20,3 +20,30 @@ header {
     font-size: 3rem;
     color: hsl(33, 100%, 54%);
 }
+
+/* Recipe */
+.container {
+    width: 70%;
+    margin: 70px auto;
+    /* DEBUG */
+    background-color: lightblue;
+}
+
+.row {
+    display: flex;
+}
+
+.col-left {
+    width: 70%;
+    /* DEBUG */
+    height: 500px;
+    background-color: lightcoral;
+}
+
+.col-right {
+    width: 30%;
+    /* DEBUG */
+    height: 500px;
+    background-color: lightgreen;
+}
+
