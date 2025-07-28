@@ -40,11 +40,6 @@ header {
 }
 
 /* Recipe */
-#recipe {
-    /* DEBUG */
-    /* background-color: lightblue; */
-}
-
 .categories {
     display: inline-block;
     margin-bottom: 15px;
@@ -77,8 +72,6 @@ header {
 .col-right {
     width: 30%;
     padding: 40px;
-    /* DEBUG */
-    /* background-color: lightgreen; */
 }
 
 .col-right h4 {
@@ -96,8 +89,6 @@ header {
 #socials {
     display: flex;
     justify-content: space-between;
-    /* DEBUG */
-    /* background-color: lightgrey; */
 }
 
 .btn {
@@ -109,8 +100,6 @@ header {
     font-size: 0.9rem;
     color: black;
     box-shadow: 5px 5px 10px hsl(0, 0%, 82.7%);
-    /* DEBUG */
-    /* background-color: aquamarine; */
 }
 
 /* ADS */
@@ -153,7 +142,6 @@ p {
 /* Footer */
 footer {
     padding: 20px 20px;
-    /* DEBUG */
     background-color: hsl(259, 24%, 53%);
 }
 
